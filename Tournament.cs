@@ -8,28 +8,6 @@ public class Program
           {
                ConsoleInterface interf = new ConsoleInterface();
                interf.LaunchInterface();
-
-               /*
-               TournamentTable tournament = new TournamentTable("KKKK");
-               Game game1 = new Game(new Dictionary<string, int>{
-                    {"team1", 4},
-                    {"team2", 5}
-               });
-               Game game2 = new Game(new Dictionary<string, int>{
-                    {"team1", 11},
-                    {"team2", 7}
-               });
-               //Console.WriteLine(Game.GetInfoForTeams(new Game[] {game1}));
-               foreach (KeyValuePair<string, Dictionary<string, int>> pair in Game.GetInfoForTeams(new Game[] {game1, game2})) {
-                    Console.WriteLine("Team {0}", pair.Key);
-                    foreach (KeyValuePair<string, int> values in pair.Value) {
-                         Console.WriteLine("    {0}: {1}", values.Key, values.Value);
-                    }
-               }
-               tournament.AddGame(game1);
-               tournament.AddGame(game2);
-               tournament.PrintSheets();
-               */
           }
 }
 
